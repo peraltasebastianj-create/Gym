@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria de ejercicios listo para ensamblar en el html del index</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rutinas de Entrenamiento</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+<div id="disclaimerModal" class="modal-overlay">
+  <div class="modal-content">
+    <h2>Aviso importante</h2>
+    <p>
+      En esta galería los videos no son publicación de <strong>Gimnasio Vital</strong>, sino de sus respectivos propietarios. 
+      Por tal motivo, algunos videos pueden no estar disponibles o ser privados. Esta galería tiene como objetivo brindarte una referencia visual de cada ejercicio.
+    </p>
+    <button id="closeModalBtn">Entendido</button>
+  </div>
+</div>
+  <header>
+    <h1>Rutinas de Entrenamiento</h1>
+  </header>
+
+  <section class="filters">
+    <select id="muscleFilter" aria-label="Filtrar por mÃºsculo">
+      <option value="__ALL__">Todos los mÃºsculos</option>
+    </select>
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Buscar por mÃºsculo o ejercicio..."
+      aria-label="Buscar por mÃºsculo o ejercicio"
+      autocomplete="off"
+    />
+  </section>
+
+  <section id="playerSection" class="player-section" aria-label="Reproductor de video">
+    <div id="playerContainer" class="player-container" aria-live="polite"></div>
+    <div class="player-meta">
+      <div id="nowPlaying" class="now-playing"></div>
+      <a id="watchOnYT" class="watch-yt" href="#" target="_blank" rel="noopener">Ver en YouTube â†—</a>
+    </div>
+  </section>
+
+  <main>
+    <div id="exerciseList" class="exercise-list" aria-live="polite">
+      <!-- Se cargan los ejercicios -->
+    </div>
+  </main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

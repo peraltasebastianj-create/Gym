@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>buscador Galería de ejercicios para el gimnasio.</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rutinas de Entrenamiento</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>Rutinas de Entrenamiento</h1>
+  </header>
+
+  <section class="filters">
+    <select id="muscleFilter" aria-label="Filtrar por músculo">
+      <option value="__ALL__">Todos los músculos</option>
+    </select>
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Buscar por músculo o ejercicio..."
+      aria-label="Buscar por músculo o ejercicio"
+      autocomplete="off"
+    />
+  </section>
+
+  <section id="playerSection" class="player-section" aria-label="Reproductor de video">
+    <div id="playerContainer" class="player-container" aria-live="polite"></div>
+    <div id="nowPlaying" class="now-playing"></div>
+  </section>
+
+  <main>
+    <div id="exerciseList" class="exercise-list" aria-live="polite">
+      <!-- Se cargan los ejercicios -->
+    </div>
+  </main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

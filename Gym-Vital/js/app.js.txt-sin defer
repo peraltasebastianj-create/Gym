@@ -1,0 +1,52 @@
+/* ----------  CARGA MENÚ  ---------- */
+fetch('html/menu.html')
+  .then(r => r.text())
+  .then(d => {
+    document.body.insertAdjacentHTML('afterbegin', d);
+    activarMenu();
+    activarVideo();
+    activarForm();
+  });
+
+/* ----------  MENÚ FLOTANTE  ---------- */
+function activarMenu() {
+  const header = document.getElementById('main-header');
+  const btn = document.getElementById('menu-button');
+  const menu = document.getElementById('floating-menu');
+  let last = 0;
+  window.addEventListener('scroll', () => {
+    const st = window.pageYOffset || document.documentElement.scrollTop;
+    if (st > last && st > 100) {
+      header.style.top = '-100px';
+      btn.style.display = 'block';
+    } else {
+      header.style.top = '0';
+      btn.style.display = 'none';
+      menu.classList.add('hidden');
+    }
+    last = st;
+  });
+  btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+}
+
+/* ----------  VIDEO PROMOCIONAL  ---------- */
+function activarVideo() {
+  const v = document.getElementById('promoVideo');
+  if (!v) return;
+  v.addEventListener('canplay', () => setTimeout(() => v.play(), 1400), { once: true });
+}
+
+/* ----------  FORMULARIO CONTACTO  ---------- */
+function activarForm() {
+  const f = document.getElementById('formContacto');
+  const msg = document.getElementById('formMsg');
+  if (!f) return;
+  f.addEventListener('submit', e => {
+    e.preventDefault();
+    if (!f.checkValidity()) { msg.textContent = 'Completa todos los campos'; return; }
+    // Aquí puedes enviar con fetch() o usar la acción que quieras
+    msg.style.color = '#0ff';
+    msg.textContent = '¡Mensaje enviado! Te responderemos pronto.';
+    f.reset();
+  });
+}

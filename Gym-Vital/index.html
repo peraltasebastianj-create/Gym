@@ -1,0 +1,32 @@
+X<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gimnasio Vital | Inicio</title>
+  <link rel="stylesheet" href="./css/estilos.css"/>
+  <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+ <div id="menu-container"></div>
+ <!--  El menú se carga solo vía JS  -->
+  <main>
+    <section class="hero">
+      <h1 class="explosion">ENTRENA SIN LÍMITES</h1>
+      <p class="page-flip">El mejor gimnasio de la ciudad</p>
+      <a href="inscripcion.html" class="btn">Contacto</a>
+    </section>
+       <section class="video-rayo">
+      <div class="rayo"></div>
+      <div class="flash"></div>
+      <video id="promoVideo" muted autoplay playsinline preload="auto">
+        <source src="./video/tiny.mp4" type="video/mp4"/>
+      </video>
+    </section>
+ 
+  </main>
+  <!--  Único JS, con defer para que espere al DOM y al video  -->
+  <script src="./js/app.js" defer></script>
+   <script src="./js/script.js" defer></script>
+  </body>
+</html>

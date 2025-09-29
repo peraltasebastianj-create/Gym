@@ -1,0 +1,19 @@
+Gym-Vital/
+├─ index.html
+├─ clases.html
+├─ galeria.html   ← YouTube embebidos
+├─ contacto.html         ← form funcional
+├─ css/
+│  └─ estilos.css        ← TODO el CSS (menú + efectos + galería + form)
+├─ js/
+│  └─ app.js             ← TODO el JS (menú + efectos + validación form)
+├─ html/
+│  └─ menu.html          ← fragmento que se inyecta en todas
+├─ img/
+│  ├─ logo.png
+│  ├─ hero-gym.jpg
+│  ├─ clase-crossfit.jpg
+│  ├─ clase-yoga.jpg
+│  └─ ...
+└─ video/
+   └─ promo.mp4          ← video del efecto rayo

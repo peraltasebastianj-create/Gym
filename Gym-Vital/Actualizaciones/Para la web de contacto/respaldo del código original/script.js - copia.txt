@@ -1,0 +1,116 @@
+// ===== Banner de descuento por 1 hora =====
+
+// Claves de almacenamiento
+const PROMO_KEY_START = "hourPromoStart";
+const PROMO_KEY_CODE  = "hourPromoCode";
+const PROMO_WINDOW_MS = 60 * 60 * 1000; // 1 hora
+
+// Genera 7 d�gitos aleatorios y calcula el d�gito verificador EAN-8
+function generarCodigoConDV() {
+  const siete = Array.from({ length: 7 }, () => Math.floor(Math.random() * 10));
+  const [d1,d2,d3,d4,d5,d6,d7] = siete;
+
+  // EAN-8: dv = (10 - (((d1+d3+d5+d7)*3 + (d2+d4+d6)) % 10)) % 10
+  const sumImpares = d1 + d3 + d5 + d7;
+  const sumPares   = d2 + d4 + d6;
+  const dv = (10 - ((sumImpares * 3 + sumPares) % 10)) % 10;
+
+  const cuerpo = siete.join("") + dv;
+  return `VITAL-${cuerpo}`;
+}
+
+function obtenerInicioPromo() {
+  const val = localStorage.getItem(PROMO_KEY_START);
+  if (val) return parseInt(val, 10);
+  const now = Date.now();
+  localStorage.setItem(PROMO_KEY_START, String(now));
+  return now;
+}
+
+function obtenerCodigo() {
+  let code = localStorage.getItem(PROMO_KEY_CODE);
+  if (!code) {
+    code = generarCodigoConDV();
+    localStorage.setItem(PROMO_KEY_CODE, code);
+  }
+  return code;
+}
+
+function formatearMMSS(ms) {
+  const total = Math.max(0, Math.floor(ms / 1000));
+  const mm = String(Math.floor(total / 60)).padStart(2, "0");
+  const ss = String(total % 60).padStart(2, "0");
+  return `${mm}:${ss}`;
+}
+
+function initBannerDescuento() {
+  const start = obtenerInicioPromo();
+  const code = obtenerCodigo();
+
+  const banner = document.getElementById("banner-descuento");
+  const codigoEl = document.getElementById("codigo-descuento");
+  const timerEl = document.getElementById("timer-restante");
+  const copiarBtn = document.getElementById("copiar-codigo");
+  const usarBtn = document.getElementById("usar-codigo");
+  const cerrarBtn = document.getElementById("cerrar-banner");
+  const campoCodigo = document.getElementById("campo-codigo");
+  const form = document.getElementById("form-inscripcion");
+
+  if (!banner || !codigoEl || !timerEl) return;
+
+  codigoEl.textContent = code;
+
+  function tick() {
+    const now = Date.now();
+    const remaining = PROMO_WINDOW_MS - (now - start);
+
+    if (remaining <= 0) {
+      banner.hidden = true;
+      // Opcional: limpiar c�digo expirado
+      // localStorage.removeItem(PROMO_KEY_CODE);
+      // localStorage.removeItem(PROMO_KEY_START);
+      return;
+    }
+
+    timerEl.textContent = formatearMMSS(remaining);
+  }
+
+  // Mostrar banner y comenzar a contar
+  banner.hidden = false;
+  tick();
+  const interval = setInterval(tick, 1000);
+
+  // Copiar c�digo
+  copiarBtn?.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(code);
+      copiarBtn.textContent = "�Copiado!";
+      setTimeout(() => (copiarBtn.textContent = "Copiar"), 1800);
+    } catch {
+      // Fallback si no hay permisos
+      const tmp = document.createElement("textarea");
+      tmp.value = code;
+      document.body.appendChild(tmp);
+      tmp.select();
+      document.execCommand("copy");
+      document.body.removeChild(tmp);
+      copiarBtn.textContent = "�Copiado!";
+      setTimeout(() => (copiarBtn.textContent = "Copiar"), 1800);
+    }
+  });
+
+  // Autocompletar en el formulario y hacer scroll
+  usarBtn?.addEventListener("click", () => {
+    if (campoCodigo) campoCodigo.value = code;
+    document.getElementById("formulario")?.scrollIntoView({ behavior: "smooth" });
+  });
+
+  // Cerrar banner manualmente
+  cerrarBtn?.addEventListener("click", () => {
+    banner.hidden = true;
+    clearInterval(interval);
+  });
+}
+
+// Inicializar al cargar
+window.addEventListener("DOMContentLoaded", initBannerDescuento);

@@ -1,0 +1,1627 @@
+// ======  (reemplazar por el JSON real) ======
+// Acepta youtubeId o youtubeUrl; se extrae el ID automáticamente
+const allExercises = [
+  JSON generado:
+{
+  "ejercicios": [
+    {
+      "name": "CUADRICEPS",
+      "muscle": "sentadilla barra alta",
+      "youtubeUrl": "https://youtu.be/KLyarAU2iHE?si=k1PxUcGWXLNj6oaW"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "sentadilla barra baja",
+      "youtubeUrl": "https://youtu.be/8dxJApR56vo?si=raJb_JH_Pqg3AKUz"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "sentadilla bulgara",
+      "youtubeUrl": "https://youtu.be/g343Q5OvoN8?si=yvLHrUuFNwlrbW_a"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "sentadilla hack",
+      "youtubeUrl": "https://youtu.be/NAREtI42Mng?si=wL3m04ij_I0l4bA6"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "sentadilla en multipower",
+      "youtubeUrl": "https://youtu.be/3fc6_6UXLXM?si=WWB90xZQb0qYEfSn"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "zancada en multipower",
+      "youtubeUrl": "https://youtu.be/76JgUWTs8io?si=hzHNUxFXkCtAL6XA"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "sentadilla globet",
+      "youtubeUrl": "https://youtu.be/ARTb2Oq2x1s?si=-0JK3Z0cbMe3uVAI"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "sentadilla sisy",
+      "youtubeUrl": "https://youtu.be/E1mQeTSdcaA?si=O76DXvayr1YrsouP"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "prensa",
+      "youtubeUrl": "https://youtu.be/D1FvjYNX9QI?si=VXO4-ICZNe_JM6Pz"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "curl nordico inverso",
+      "youtubeUrl": "https://youtu.be/WmcxNJEN3GI?si=3HR9e6OcYBIcMP8J"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "zancada",
+      "youtubeUrl": "https://youtu.be/WmcxNJEN3GI?si=dUSbiCLHNxVHIKqo"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "extension de cuadriceps",
+      "youtubeUrl": "https://youtu.be/_LoDgabiyqc?si=cbbtt0s7rmgDAdic"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "sentadilla pendular",
+      "youtubeUrl": "https://youtu.be/9n-efDAi5FY?si=2DRR1nynzObm0Rdu"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "sentadilla bulgara en multipower",
+      "youtubeUrl": "https://youtu.be/pK73a5879M4?si=kXdvSw-j1D-ozk5K"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "belt squat",
+      "youtubeUrl": "https://youtu.be/oZDSYDHv6Pc?si=YJSQL1QUV7jcXXLS"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "sentadilla frontal",
+      "youtubeUrl": "https://youtu.be/v_nvYjpX-iY?si=Sxlw9ca-wGh_60tc"
+    },
+    {
+      "name": "CUADRICEPS",
+      "muscle": "box squat",
+      "youtubeUrl": "https://youtu.be/VVphP3IUs3Q?si=d4DpO3kdJJWnY_Mq"
+    },
+    {
+      "name": "ISQUIOS",
+      "muscle": "peso muerto rumano con barra",
+      "youtubeUrl": "https://youtu.be/t-Fjd5sa5-Y?si=pxpUFqO8ir_srP_3"
+    },
+    {
+      "name": "ISQUIOS",
+      "muscle": "peso muerto rumano con mancuernas",
+      "youtubeUrl": "https://youtu.be/6GeaiPbfVVM?si=rao98mlIp9XWe5Uo"
+    },
+    {
+      "name": "ISQUIOS",
+      "muscle": "peso muerto convencional",
+      "youtubeUrl": "https://youtu.be/9WZlPAxJ2u8?si=CsNHKLkilk_7HIBh"
+    },
+    {
+      "name": "ISQUIOS",
+      "muscle": "peso muerto sumo",
+      "youtubeUrl": "https://youtu.be/TsugEJ5wOCU?si=7CmF99Edfcf9-7-O"
+    },
+    {
+      "name": "ISQUIOS",
+      "muscle": "curl de isquios tumbado",
+      "youtubeUrl": "https://youtu.be/-jeW_ToaRB8?si=LWJ89Jxp7oWsN2DC"
+    },
+    {
+      "name": "ISQUIOS",
+      "muscle": "curl de isquios sentado",
+      "youtubeUrl": "https://youtu.be/locj9zuXya0?si=Y7QOc5SP2T2IzhX_"
+    },
+    {
+      "name": "ISQUIOS",
+      "muscle": "curl deslizador",
+      "youtubeUrl": "https://youtu.be/6uU4zNCbH1A?si=1xh9DFfDYetIq4vj"
+    },
+    {
+      "name": "ISQUIOS",
+      "muscle": "caidas nordicas",
+      "youtubeUrl": "https://youtu.be/WByFxezU1E0?si=asTlLfwYUh5y6_-e"
+    },
+    {
+      "name": "ISQUIOS",
+      "muscle": "buenos dias",
+      "youtubeUrl": "https://youtu.be/uMSLd6viCao?si=UszTFvITh1JEHY46"
+    },
+    {
+      "name": "ISQUIOS",
+      "muscle": "curl femoral parado en máquina",
+      "youtubeUrl": "https://youtu.be/yALEL1XnhZE?si=R_dDKPS3WQadD5RH"
+    },
+    {
+      "name": "ISQUIOS",
+      "muscle": "peso muerto touch and go",
+      "youtubeUrl": "https://youtu.be/AzhTvdvnSsA?si=LoYPiYUZKjEDIJFU"
+    },
+    {
+      "name": "ISQUIOS",
+      "muscle": "peso muerto desde bloques",
+      "youtubeUrl": "https://youtu.be/bqnhTJnsEJ8?si=XTajRjcY4PqwwPQL"
+    },
+    {
+      "name": "GLUTEOS",
+      "muscle": "patada de glúteo",
+      "youtubeUrl": "https://youtu.be/4JrX1A69bXE?si=0fGd4dILccXAFxlI"
+    },
+    {
+      "name": "GLUTEOS",
+      "muscle": "abducción en polea baja",
+      "youtubeUrl": "https://youtu.be/Ee_JQ71XcyI?si=jWXx1eNw8_pb5cZi"
+    },
+    {
+      "name": "GLUTEOS",
+      "muscle": "abducciones en maquina",
+      "youtubeUrl": "https://youtu.be/ukErvQf6Lxs?si=Y15x-aLzMzoCP8QL"
+    },
+    {
+      "name": "GLUTEOS",
+      "muscle": "frog pumps",
+      "youtubeUrl": "https://youtu.be/QZypmmBVsh0?si=EBLXSY6qiZaRRoOp"
+    },
+    {
+      "name": "GLUTEOS",
+      "muscle": "monster walks",
+      "youtubeUrl": "https://youtu.be/WISZki61dRY?si=hd8HpGI-1vUp9qTz"
+    },
+    {
+      "name": "GLUTEOS",
+      "muscle": "extension de cadera en polea",
+      "youtubeUrl": "https://youtu.be/1mL-NCet4dY?si=VHlLt3zQdMl07V9l"
+    },
+    {
+      "name": "GLUTEOS",
+      "muscle": "hip thrust",
+      "youtubeUrl": "https://youtu.be/3aTb9Megbuo?si=QU37G_VkmfVaCwGn"
+    },
+    {
+      "name": "GLUTEOS",
+      "muscle": "hiperxtensiones invertidas",
+      "youtubeUrl": "https://youtu.be/HcnIYjc9k2U?si=An3C6-ChjoCfznAo"
+    },
+    {
+      "name": "GLUTEOS",
+      "muscle": "hiperextensiones",
+      "youtubeUrl": "https://youtu.be/6qxLtMoByhI?si=yYnc4BGsIbuMVJXM"
+    },
+    {
+      "name": "GLUTEOS",
+      "muscle": "puente de gluteo",
+      "youtubeUrl": "https://youtu.be/-yzU_B2-3_A?si=EDtNdEyyTSlMvM5j"
+    },
+    {
+      "name": "GLUTEOS",
+      "muscle": "hip thrust unilateral",
+      "youtubeUrl": "https://youtu.be/ZgegF8rNsC0?si=Xy45_Rcq6WNue3Ys"
+    },
+    {
+      "name": "GLUTEOS",
+      "muscle": "caminatas puente de gluteo",
+      "youtubeUrl": "https://youtu.be/ZZzW1MAMgVI?si=e6ndBpS3hRXVSAby"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "press banca con barra",
+      "youtubeUrl": "https://youtu.be/dWV4uWd2GvM?si=YUMC4YqlSHLRHWQe"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "press banca con mancuernas",
+      "youtubeUrl": "https://youtu.be/MeyuOEimrC0?si=p2zdX3Aga4tX4MKA"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "press banca inclinado con barra",
+      "youtubeUrl": "https://youtu.be/J3lODDykG0E?si=cWrLRi0yeXWmnYEY"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "press banca inclinado con mancuernas",
+      "youtubeUrl": "https://youtu.be/MkMf308jXww?si=GJ6ig9-0H8nOFV5G"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "press banca  inclinado en multipower",
+      "youtubeUrl": "https://youtu.be/iqozyy1KzvQ?si=9NUgfQBjQ26d4tkv"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "flexiones declinadas",
+      "youtubeUrl": "https://youtu.be/WziTc4qa5a4?si=dRo9UGr7sGD2zoqv"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "flexiones",
+      "youtubeUrl": "https://youtu.be/Yd79XBIdDnI?si=We-fHuyzqGEV189_"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "fondos",
+      "youtubeUrl": "https://youtu.be/1Pz5N4VHeEU?si=LigqC3x4QxmNh_fT"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "cruce de polea sentado",
+      "youtubeUrl": "https://youtu.be/VdcwB8sJ3uI?si=fE6x4u6hL1BVMHY3"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "peck deck",
+      "youtubeUrl": "https://youtu.be/Ha1XOWOA51o?si=m16jJb6RcKh6kjgp"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "aperturas con mancuernas",
+      "youtubeUrl": "https://youtu.be/u5UZbS92z0Y?si=-WzTLA4taDhVuuPr"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "flexiones con déficit",
+      "youtubeUrl": "https://youtu.be/0lW8MjSJ6Wg?si=MAm1TvN2NCH6Z5OC"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "press banca en maquina",
+      "youtubeUrl": "https://youtu.be/fzjKe_KmFMA?si=MKiNxl5HJPjpJJw4"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "cruce de polea ascendente parado",
+      "youtubeUrl": "https://youtu.be/8XNS0aMvAg4?si=Dtz1hjgutRF7-Msd"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "cruce de polea descendente parado",
+      "youtubeUrl": "https://youtu.be/XnaMi2Gb_9Q?si=T5_cB-sgh5V0zGJ0"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "press banca larsen",
+      "youtubeUrl": "https://youtu.be/n2R2UK_e9Aw?si=FnCGzASEepmCKFTX"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "Flexiones con una sola mano",
+      "youtubeUrl": "https://youtu.be/jxky2R0o3Uc?si=CHfYUVE4zQjsfnlt"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "flexiones en anillas",
+      "youtubeUrl": "https://youtube.com/shorts/cOAd8ZZ2cYQ?si=zZizHPJ_Ao6s7KGo"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "press banca",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gRVjAtPip0Y"
+    },
+    {
+      "name": "PECTORAL",
+      "muscle": "press con mancuerna",
+      "youtubeUrl": "https://youtu.be/2DUKO1rdBH4"
+    },
+    {
+      "name": "DELTOIDES.ANTERIOR",
+      "muscle": "press militar con barra",
+      "youtubeUrl": "https://youtu.be/j_Buh54Sb-w?si=E5DWbYA6mKeuECYx"
+    },
+    {
+      "name": "DELTOIDES.ANTERIOR",
+      "muscle": "press militar con mancuernas",
+      "youtubeUrl": "https://youtu.be/o5M9RZ-vWrc?si=9DTCl_1JFZZZkk5X"
+    },
+    {
+      "name": "DELTOIDES.ANTERIOR",
+      "muscle": "elevaciones frontales con mancuernas",
+      "youtubeUrl": "https://youtu.be/qIxtugfMI-E?si=hcmwNk7RLqBiBUEt"
+    },
+    {
+      "name": "DELTOIDES.ANTERIOR",
+      "muscle": "press militar con banda",
+      "youtubeUrl": "https://youtu.be/I0bj7b1niNs?si=po1AloInfyhwxb1F"
+    },
+    {
+      "name": "DELTOIDES.ANTERIOR",
+      "muscle": "flexiones en pica",
+      "youtubeUrl": "https://youtu.be/4IQAbNVgPG8?si=-OwkypbIlSrw0lFk"
+    },
+    {
+      "name": "DELTOIDES.ANTERIOR",
+      "muscle": "elevaciones frontales en polea",
+      "youtubeUrl": "https://youtu.be/vFgvRQo7jqw?si=HGiNpOom45zlsnUH"
+    },
+    {
+      "name": "DELTOIDES.ANTERIOR",
+      "muscle": "press militar en multipower",
+      "youtubeUrl": "https://youtu.be/-SgUUBG_e8c?si=6TZzxgeIbW1TV5t-"
+    },
+    {
+      "name": "DELTOIDES.ANTERIOR",
+      "muscle": "push press landmine",
+      "youtubeUrl": "https://youtu.be/10N_NUKIiNE?si=aEUqZpgWsncTM7IL"
+    },
+    {
+      "name": "DELTOIDES.ANTERIOR",
+      "muscle": "Flexiones de pino",
+      "youtubeUrl": "https://youtu.be/CNfJvrQrpZY?si=0Z2HbSLpd2rankjB"
+    },
+    {
+      "name": "DELTOIDES.LATERAL",
+      "muscle": "elevaciones con mancuernas",
+      "youtubeUrl": "https://youtu.be/hgLpdwMtEEs?si=0yqnwMSZgJo3Tuoo"
+    },
+    {
+      "name": "DELTOIDES.LATERAL",
+      "muscle": "elevaciones laterales en polea",
+      "youtubeUrl": "https://youtu.be/wJcADdn-vlk?si=s2a4-LI_bY440av_"
+    },
+    {
+      "name": "DELTOIDES.LATERAL",
+      "muscle": "elevaciones tumbado en polea",
+      "youtubeUrl": "https://youtu.be/yoEGEYL2qAE?si=qIIiK2MBSf-oOj0L"
+    },
+    {
+      "name": "DELTOIDES.LATERAL",
+      "muscle": "elevaciones laterales en maquina",
+      "youtubeUrl": "https://youtu.be/qMW1B73Zbk4?si=8RD0x7dAV6ADBhEa"
+    },
+    {
+      "name": "DELTOIDES.LATERAL",
+      "muscle": "remo al menton",
+      "youtubeUrl": "https://youtu.be/loL670Yb7nU?si=jpAKydNRILKBLRaP"
+    },
+    {
+      "name": "DELTOIDES.LATERAL",
+      "muscle": "elevaciones laterales con banda",
+      "youtubeUrl": "https://youtu.be/guyZsiHh93Q?si=itZHPLdfPy1xWjdV"
+    },
+    {
+      "name": "DELTOIDES.LATERAL",
+      "muscle": "elevaciones laterales sentado en banco",
+      "youtubeUrl": "https://youtu.be/n9JA-ozaOMM?si=FhvS234s1EORSrcA"
+    },
+    {
+      "name": "DELTOIDES.POSTERIOR",
+      "muscle": "face pull",
+      "youtubeUrl": "https://youtu.be/h2I7pHAKLoE?si=4NU6csWe0o6UIIrh"
+    },
+    {
+      "name": "DELTOIDES.POSTERIOR",
+      "muscle": "peck deck inverso",
+      "youtubeUrl": "https://youtu.be/crU_NeckBrI?si=iuqQ0JDALin9x_Eo"
+    },
+    {
+      "name": "DELTOIDES.POSTERIOR",
+      "muscle": "pajaros con mancuernas",
+      "youtubeUrl": "https://youtu.be/GbPxyECFxCI?si=GIpnZl-8vyt_qIbS"
+    },
+    {
+      "name": "DELTOIDES.POSTERIOR",
+      "muscle": "pajaros en polea",
+      "youtubeUrl": "https://youtu.be/iDRNq5cEqJk?si=pJo4vT7ZF8YqKI75"
+    },
+    {
+      "name": "DELTOIDES.POSTERIOR",
+      "muscle": "face pull con banda",
+      "youtubeUrl": "https://youtu.be/w06tVYSLH20?si=bXVmhWZTD5GLfCP7"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "jalon al pecho",
+      "youtubeUrl": "https://youtu.be/B2vOdTyP6Pk?si=O1MkduxVl7pz8cH4"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "dominadas",
+      "youtubeUrl": "https://youtu.be/xgDezCv-0jA?si=LxmKyl3iPKDh9VZM"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "pull over en polea",
+      "youtubeUrl": "https://youtu.be/YKH6BjTCV3s?si=RFkjB7rZXSihsJnN"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "jalon unilateral en polea",
+      "youtubeUrl": "https://youtu.be/U1In2OvvzMI?si=DFPS-vDVoFeqqKHe"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "remo con mancuernas unilateral",
+      "youtubeUrl": "https://youtu.be/QLXTYcRmKcw?si=0AZlZObqU7HFhl6b"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "remo con barra",
+      "youtubeUrl": "https://youtu.be/pjIbGzEhS4Q?si=ce5vHvtx-3B2Dk8K"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "remo en T",
+      "youtubeUrl": "https://youtu.be/KgEZTNLBMMQ?si=FSm8abdmUQcJKauL"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "remo pandlay",
+      "youtubeUrl": "https://youtu.be/L-Icc7fPaVg?si=FMYumBF2BsoME3R4"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "rack chins",
+      "youtubeUrl": "https://youtu.be/nXPcXk9O5n4?si=41tJOo7VPsb1w4Gt"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "remo australiano",
+      "youtubeUrl": "https://youtu.be/SM7_Z_o98OI?si=RwM0VNfYzxQY21na"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "jalon trasnuca",
+      "youtubeUrl": "https://youtu.be/C7WJ3B-jJx0?si=wANfUoGHHM56VN2J"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "remo dorian",
+      "youtubeUrl": "https://youtu.be/TNCEOYiiRYw?si=NUHj3ulazFRzP6-J"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "remo Gironda",
+      "youtubeUrl": "https://youtu.be/GBXQBhuCT3U?si=bK1r9RPQtUD9FGUK"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "remo en maquina hammer",
+      "youtubeUrl": "https://youtu.be/WSQycPN55Z4?si=Xm5G8XBI36HYI-B_"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "remo helms",
+      "youtubeUrl": "https://youtu.be/F6UaTLjkLBk?si=9c60hNcdcmsKP1Ho"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "remo meadows",
+      "youtubeUrl": "https://youtu.be/yatplAIkIZ4?si=0fodmSdxdw35_wSF"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "remo landmine",
+      "youtubeUrl": "https://youtu.be/RIWQ7enkVzU?si=6z26mFGQeTw7hNec"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "rack pull",
+      "youtubeUrl": "https://youtu.be/V5UgJ-cx0KI?si=LYJPH_iXdVT2V3lc"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "seal row",
+      "youtubeUrl": "https://youtu.be/_WqYe1rAVck?si=GSNV1oxz9WKhYsEM"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "dominadas a un brazo",
+      "youtubeUrl": "https://youtu.be/WSb81PHZ6mA?si=804USffZn-NDGKNl"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "dominadas L-sit",
+      "youtubeUrl": "https://youtu.be/iHGgnCeyosU?si=C1nUo06QIiz0dlaB"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "dominadas agarre cerrado",
+      "youtubeUrl": "https://youtu.be/fPKzJp0hs7Y?si=wg9cUe814pHY46xo"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "dominadas en anillas",
+      "youtubeUrl": "https://youtube.com/shorts/pPF6xPykqSY?si=pN5580jFytzaUnOq"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "jalones al pecho",
+      "youtubeUrl": "https://youtube.com/shorts/pPF6xPykqSY?si=pN5580jFytzaUnOq"
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "remo invertido",
+      "youtubeUrl": "https://youtube.com/shorts/pPF6xPykqSY?si=pN5580jFytzaUnOq."
+    },
+    {
+      "name": "ESPALDA",
+      "muscle": "peso muerto",
+      "youtubeUrl": "https://youtu.be/qO87pkO3E2E"
+    },
+    {
+      "name": "TRAPECIO",
+      "muscle": "encogimiento con barra",
+      "youtubeUrl": "https://youtu.be/grQ3s_zU9n4?si=x8EABLnhj-MO__uY"
+    },
+    {
+      "name": "TRAPECIO",
+      "muscle": "encogimeinto en polea",
+      "youtubeUrl": "https://youtu.be/UJekJEH8sJU?si=_a8ABWgWa_j3EFgV"
+    },
+    {
+      "name": "BICEPS",
+      "muscle": "curl de bíceps con mancuernas",
+      "youtubeUrl": "https://youtu.be/AYlobl9M0GU?si=cvNM4pMZj-ZJSKgw"
+    },
+    {
+      "name": "BICEPS",
+      "muscle": "curl martillo",
+      "youtubeUrl": "https://youtu.be/de4AdSz4gcU?si=AO7J2FWZIroe-PV1"
+    },
+    {
+      "name": "BICEPS",
+      "muscle": "curl con barra",
+      "youtubeUrl": "https://youtu.be/RucsI3LhpRQ?si=H5rga7G3tb-zuC6J"
+    },
+    {
+      "name": "BICEPS",
+      "muscle": "curl araña",
+      "youtubeUrl": "https://youtu.be/7UBeZ__EOHI?si=E6E4XVULceXh-_Ec"
+    },
+    {
+      "name": "BICEPS",
+      "muscle": "curl bayesian",
+      "youtubeUrl": "https://youtu.be/eyxodt_n8M4?si=vJ2xOIp4fsb0G8O-"
+    },
+    {
+      "name": "BICEPS",
+      "muscle": "curl predicador",
+      "youtubeUrl": "https://youtu.be/Zb5YLtjEV0Y?si=gG5sHEk504zJeFip"
+    },
+    {
+      "name": "BICEPS",
+      "muscle": "curl con banda",
+      "youtubeUrl": "https://youtu.be/Zzju7fyPnHE?si=hw_oRyf-h09TTAyg"
+    },
+    {
+      "name": "BICEPS",
+      "muscle": "curl con banco inclinado",
+      "youtubeUrl": "https://youtu.be/m2VZFlcJsaM?si=lQr0n9MTfRcH5iHM"
+    },
+    {
+      "name": "BICEPS",
+      "muscle": "curl concetrado",
+      "youtubeUrl": "https://youtu.be/r8BYM4kNrHg?si=Lr3lHNsZRjKkoAGF"
+    },
+    {
+      "name": "BICEPS",
+      "muscle": "curl en polea",
+      "youtubeUrl": "https://youtu.be/GHcp4tf_yqQ?si=ajudgMSUJgL-Bky5"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "extensión de triceps desde polea",
+      "youtubeUrl": "https://youtu.be/dRkTreltpnc?si=tMQfvgbVZTrphKtb"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "extension trasnuca con mancuerna",
+      "youtubeUrl": "https://youtu.be/fQ-KB40W3d8?si=uRNpAtLv3ISboRil"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "extensión trasnuca desde polea",
+      "youtubeUrl": "https://youtu.be/tToDLyQF4Bo?si=Un5PGilq5GobUZaD"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "press frances con mancuernas",
+      "youtubeUrl": "https://youtu.be/fhhmRonWIBw?si=xIGmCHbEFOw1Qr8A"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "press banca agarre cerrado",
+      "youtubeUrl": "https://youtu.be/gDSJb6mwJg4?si=s0phkJzF7feq4OgW"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "press banca en miltipower cerrado",
+      "youtubeUrl": "https://youtu.be/o4JzStqirvE?si=EAkFb5HsMUHDfcfP"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "extension de triceps con banda",
+      "youtubeUrl": "https://youtu.be/v3uVtjVASzs?si=mwMkjXUfE6C7-eaw"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "fondos en banco",
+      "youtubeUrl": "https://youtu.be/H6r0fh2-YNU?si=eTTGkQjySK5YBnta"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "JM press",
+      "youtubeUrl": "https://youtu.be/Jsb6iw0qsUA?si=yvW8OymSECvjoTwV"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "skrullscrusher",
+      "youtubeUrl": "https://youtu.be/qqq7YB2akYY?si=Hcd8FnC4yRsZv08z"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "press frances en polea baja",
+      "youtubeUrl": "https://youtu.be/eE4BwnFBiiE?si=Rl0Ls2aY52qcyF75"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "triceps katana",
+      "youtubeUrl": "https://youtu.be/FzEhSfNSkjA?si=LQHMuJfXEbJFgAOV"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "burpees",
+      "youtubeUrl": "https://youtu.be/Uy2nUNX38xE?si=SRSMlFv2g3lAMav9"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "Lanzamientos de balón medicinal",
+      "youtubeUrl": "https://youtu.be/FqtCUCfzV5I?si=3joVnetuIHlp1Mgy"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "Lanzamientos de balón medicinal contra pared",
+      "youtubeUrl": "https://youtu.be/HSzS42DpXJI?si=ad69ZDxMP0ywijSA"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "flexiones diamante",
+      "youtubeUrl": "https://youtu.be/erjLOgCqoOc?si=0AZ2o_kdzOJKNod5"
+    },
+    {
+      "name": "TRICEPS",
+      "muscle": "press francés",
+      "youtubeUrl": "https://youtu.be/EUm95bHsBds"
+    },
+    {
+      "name": "ANTEBRAZO",
+      "muscle": "curl inverso con mancuernas",
+      "youtubeUrl": "https://youtu.be/OO6UEVoZ7EM?si=sB8Ly5csNYem6eBH"
+    },
+    {
+      "name": "ANTEBRAZO",
+      "muscle": "curl inverso con barra",
+      "youtubeUrl": "https://youtu.be/r70FSepsHIY?si=Vc30nKmKu_ywHlN1"
+    },
+    {
+      "name": "ANTEBRAZO",
+      "muscle": "curl muñeca con barra",
+      "youtubeUrl": "https://youtu.be/rGZ-60b-ryo?si=Hp2zZtDfY18WPwIb"
+    },
+    {
+      "name": "ANTEBRAZO",
+      "muscle": "curl muñeca con mancuernas",
+      "youtubeUrl": "https://youtu.be/QVvNZR67-ns?si=O8CWgjRWgR3zcsvA"
+    },
+    {
+      "name": "ABDOMEN",
+      "muscle": "encogimientos en polea alta",
+      "youtubeUrl": "https://youtu.be/RFuU9LYHk6o?si=ERYkKOaGRe0WOBMt"
+    },
+    {
+      "name": "ABDOMEN",
+      "muscle": "rueda abdominal",
+      "youtubeUrl": "https://youtu.be/0JzHapbZnfQ?si=cbd3aY43L00z7jpd"
+    },
+    {
+      "name": "ABDOMEN",
+      "muscle": "elevaciones de pierna colgado",
+      "youtubeUrl": "https://youtu.be/XCz2MRjhH4s?si=k0gur_Rfp8cP47Bv"
+    },
+    {
+      "name": "ABDOMEN",
+      "muscle": "elevaciones de pierna tumbado",
+      "youtubeUrl": "https://youtu.be/eEbq5_AIgpo?si=LJAHlj341vaaR6UV"
+    },
+    {
+      "name": "ABDOMEN",
+      "muscle": "cruch abdominal",
+      "youtubeUrl": "https://youtu.be/yi9t1VFN3JU?si=8IgtYXW0rMf1qmeV"
+    },
+    {
+      "name": "ABDOMEN",
+      "muscle": "encogimientos invertidos",
+      "youtubeUrl": "https://youtu.be/4LZuxXyHdz8?si=VFuqWJczxv_De9ny"
+    },
+    {
+      "name": "ABDOMEN",
+      "muscle": "crunch en maquina vertical",
+      "youtubeUrl": "https://youtu.be/tudCgmuPS4w?si=AvM9pXNuLkhXR7hx"
+    },
+    {
+      "name": "ABDOMEN",
+      "muscle": "crunch abdominal en banco inclinado",
+      "youtubeUrl": "https://youtu.be/Pxi_1MPZbHA?si=cDm7aZHrF3qssUfM"
+    },
+    {
+      "name": "ABDOMEN",
+      "muscle": "hollow tuck",
+      "youtubeUrl": "https://youtu.be/JZd0rhN3I1U?si=MVtUdrFuJ9quYoIk"
+    },
+    {
+      "name": "ABDOMEN",
+      "muscle": "rotaciones en landmine",
+      "youtubeUrl": "https://youtu.be/4dGj7rES9pY?si=D5rqoMniU2qac4_E"
+    },
+    {
+      "name": "ABDOMEN",
+      "muscle": "dynamic Planche lean",
+      "youtubeUrl": "https://youtu.be/K2CHxTCpWAs?si=JxKzhVhWMNpswido"
+    },
+    {
+      "name": "ADUCTORES",
+      "muscle": "planchas de Copenhague",
+      "youtubeUrl": "https://youtu.be/gkGM-hjTTZ8?si=QyjoFVygNoG1eQP4"
+    },
+    {
+      "name": "ADUCTORES",
+      "muscle": "aductores en maquina",
+      "youtubeUrl": "https://youtu.be/fItDiXXZyZo?si=K92WimmdPy9uazcG"
+    },
+    {
+      "name": "ADUCTORES",
+      "muscle": "aductores en polea",
+      "youtubeUrl": "https://youtu.be/SXQlMH1mi9I?si=vwze7wc3hKmTmTmr"
+    },
+    {
+      "name": "ADUCTORES",
+      "muscle": "aductores",
+      "youtubeUrl": "https://youtu.be/fItDiXXZyZo?si=K92WimmdPy9uazcG"
+    },
+    {
+      "name": "GEMELOS",
+      "muscle": "extensión de tobillo en prensa",
+      "youtubeUrl": "https://youtu.be/EmRyV5tKZN8?si=ZvSug_TglMpycuNa"
+    },
+    {
+      "name": "GEMELOS",
+      "muscle": "maquina específica para soleo",
+      "youtubeUrl": "https://youtu.be/lP-6nQc7Zvg?si=LbVmRQyhoh4BghU9"
+    },
+    {
+      "name": "GEMELOS",
+      "muscle": "extension de tobillo con mancuernas",
+      "youtubeUrl": "https://youtu.be/dLIEhWIWIHI?si=kOJ7fA8fQLz5ekwd"
+    },
+    {
+      "name": "GEMELOS",
+      "muscle": "extension de tobillo con barra",
+      "youtubeUrl": "https://youtu.be/ty3xpJP2-0k?si=ygDXabSVBiCh1H6j"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "arranques con disco desde step",
+      "youtubeUrl": "https://youtube.com/shorts/GGNg_bwQS7Y?si=ytq_kZElIXP21QLS"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "One-Arm Dumbbell Power Jerk",
+      "youtubeUrl": "https://youtu.be/2zImBPVJAdM?si=F2LgyN0iEL7Mkkbu"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "Cross Body Landmine Press",
+      "youtubeUrl": "https://youtu.be/wRIBCtbEWQs?si=ysMSkv-kFAN2uA9m"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "Saltos en caja",
+      "youtubeUrl": "https://youtu.be/Y7oZdwP-mcY?si=dFscTeWG_6xAZWlj"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "saltos en profundidad",
+      "youtubeUrl": "https://youtu.be/eV-O2lRJxr0?si=udJL2wiKAP3rgF5i"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "saltos laterales",
+      "youtubeUrl": "https://youtu.be/3yh_8R7I3Wg?si=B7noL6-al3ad3RiM"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "flexiones con palmadas",
+      "youtubeUrl": "https://youtu.be/dZHRKhrhVcI?si=B50zk5ENAfbu6YMb"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "salto en plancha elevada",
+      "youtubeUrl": "https://youtu.be/GDUsFYXCdyM?si=gN325uk3SNyhN0pq"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "salto con cambio de direccion",
+      "youtubeUrl": "https://youtu.be/Bz8vBMiKso8?si=3BK_3ufP4pDyIZ7Y"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "Saltos con rodilla al pecho",
+      "youtubeUrl": "https://youtu.be/_flxD23Cql4?si=7xIGeqpRHKytwJij"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "Saltos con estocada",
+      "youtubeUrl": "https://youtu.be/cBWpxM6992E?si=vKFmYws0b276bczY"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "jumping jacks",
+      "youtubeUrl": "https://youtu.be/hcjkJUef1TU?si=gWlfD5rmefOVQK9g"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "saltos a una pierna",
+      "youtubeUrl": "https://youtu.be/8LO2C0hbGgI?si=T023822URIQ3E26e"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "saltos a una pierna en cajon",
+      "youtubeUrl": "https://youtu.be/W6bm5yaWuTM?si=RcCKdEQZ9uMZ0L63"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "saltos a una pierna en step y cajon",
+      "youtubeUrl": "https://youtu.be/bpjCI-eKj6A?si=AYAHTURL-qqbSEvl"
+    },
+    {
+      "name": "PLIOMETRICOS",
+      "muscle": "Kettlebell swings",
+      "youtubeUrl": "https://youtu.be/1cVT3ee9mgU?si=HphHXNb3UxWYxPJe"
+    },
+    {
+      "name": "ROMBOIDE",
+      "muscle": "romboides en polea alta",
+      "youtubeUrl": "https://youtu.be/BVF5h7QxmYA?si=HHCptXwQHXApi8f9"
+    },
+    {
+      "name": "ROMBOIDE",
+      "muscle": "apertura en T en polea",
+      "youtubeUrl": "https://youtu.be/C4u1nE-77ZQ?si=Js9Ir3PZ2Eu0yKKh"
+    },
+    {
+      "name": "LUMBARES",
+      "muscle": "banco espinal",
+      "youtubeUrl": "https://youtu.be/wM3hHvEdcu0?si=KdUuf-a_IR0YvFdr"
+    },
+    {
+      "name": "LUMBARES",
+      "muscle": "espinales tumbado",
+      "youtubeUrl": "https://youtu.be/4ScewVerxck?si=2HrMOW9fJLebg9vq"
+    },
+    {
+      "name": "ABDUCTORES",
+      "muscle": "abductores en polea",
+      "youtubeUrl": "https://www.youtube.com/shorts/e3NNZ1y_QgU"
+    },
+    {
+      "name": "ABDUCTORES",
+      "muscle": "abductores en maquina",
+      "youtubeUrl": "https://youtube.com/shorts/Uxp91fmv3So?si=FAIuf2Zz1JUY8aUU"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "snatch",
+      "youtubeUrl": "https://youtu.be/JRTEnmyNXdQ?si=zZ9cNQ3_410s8A88"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "power snatch",
+      "youtubeUrl": "https://youtu.be/m5b6_gvDVUw?si=nftkocGGJ4wIXFCT"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "hang snatch",
+      "youtubeUrl": "https://youtu.be/r4LzX3dTUm0?si=7dqMjUJJANneqc2-"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "muscle snatch",
+      "youtubeUrl": "https://youtu.be/ui4pCZgxt1I?si=rl6JeFfdkpCeUpNy"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "power clean",
+      "youtubeUrl": "https://youtu.be/dRxjzoSzBas?si=spCzVaplMIefNfKo"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "squat clean",
+      "youtubeUrl": "https://youtu.be/Blrj4PSY6GQ?si=IbiqcxXwR46MgayQ"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "no feet snatch",
+      "youtubeUrl": "https://youtu.be/hzBWIAnyN2s?si=sH18JsHRTJmBcXjn"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "split jerk",
+      "youtubeUrl": "https://youtu.be/ytt6j-cWmd0?si=ulY-cSATeZf0bn2D"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "push jerk",
+      "youtubeUrl": "https://youtu.be/Wsay2mvdEBU?si=Jmmh8OWnR5_pPYh8"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "clean deadlifitng",
+      "youtubeUrl": "https://youtu.be/r3w6gRzfVqw?si=MVOU5zuFcuMkI4hm"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "clean pull",
+      "youtubeUrl": "https://youtu.be/7afzXBhN_HI?si=dkU5ef0Ie4AJyC-1"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "snatch balance",
+      "youtubeUrl": "https://youtu.be/MfLrwaP9Qe4?si=5NDvx9oImcIILZU2"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "overhead squat",
+      "youtubeUrl": "https://youtu.be/3TC2V8dTDCQ?si=uzMxdy2BthOF0NKH"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "block power clean",
+      "youtubeUrl": "https://youtu.be/V9PKZX8nbw8?si=uTzbQDenHZs-smj4"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "slow pull snatch",
+      "youtubeUrl": "https://youtu.be/Lb1micqaF-s?si=Oz22fMNZls3iuRIL"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "clean and jerk",
+      "youtubeUrl": "https://youtu.be/69cpDT0rJNM?si=LpD6ahqRloiwe-mo"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "squat jerk",
+      "youtubeUrl": "https://youtu.be/OGcn1SMwW64?si=oge5jPZoO0LsDBlQ"
+    },
+    {
+      "name": "HALTEROFILIA",
+      "muscle": "Hip Power Snatch",
+      "youtubeUrl": "https://youtu.be/mFNZLOJy-KE?si=Oxtl0b9ON6d15hv4"
+    },
+    {
+      "name": "AEROBICOS",
+      "muscle": "sprints maxima velocidad",
+      "youtubeUrl": "https://youtu.be/j_L1DWPZxlI?si=PCf7v6nq9jaGlZrL"
+    },
+    {
+      "name": "AEROBICOS",
+      "muscle": "trotar",
+      "youtubeUrl": "https://youtu.be/6_5_wI-FXzE?si=aY0qtgBLF-y-DsE_"
+    },
+    {
+      "name": "AEROBICOS",
+      "muscle": "saltos cuerda",
+      "youtubeUrl": "https://youtube.com/shorts/zIwrStTwljA?si=7NkXW6FaTifD1z_l"
+    },
+    {
+      "name": "AEROBICOS",
+      "muscle": "eliptica",
+      "youtubeUrl": "https://www.youtube.com/shorts/deh5MyRvaoE"
+    },
+    {
+      "name": "AEROBICOS",
+      "muscle": "bicicleta fija",
+      "youtubeUrl": "https://www.youtube.com/shorts/rKiP2ljKpe4"
+    },
+    {
+      "name": "AEROBICOS",
+      "muscle": "jumping jacks",
+      "youtubeUrl": "https://youtu.be/iSSAk4XCsRA?si=_FDtslRHwY0rsPbB"
+    },
+    {
+      "name": "AEROBICOS",
+      "muscle": "sprint bicleta fija",
+      "youtubeUrl": "https://www.youtube.com/shorts/ee0KjopPFPw"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "Toes-to-bar",
+      "youtubeUrl": "https://youtu.be/6dHvTlsMvNY?si=DEkiW_sz5NBBS261"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "the wall ball",
+      "youtubeUrl": "https://youtu.be/fpUD0mcFp_0?si=bN0gyy_J1g6P4rBK"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "Dumbbell thrusters",
+      "youtubeUrl": "https://youtu.be/u3wKkZjE8QM?si=8J717-IrhTRmAVEj"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "Handstand push-ups",
+      "youtubeUrl": "https://youtu.be/qbRbM6d5ddM?si=TUSV_K82_ZO2bch1"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "pistol squat",
+      "youtubeUrl": "https://youtu.be/GM3qasWpvwU?si=Fkgl2GdFandNSfOi"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "Double-unders",
+      "youtubeUrl": "https://youtu.be/82jNjDS19lg?si=P9U1e9oMsPNytRMk"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "muscle up",
+      "youtubeUrl": "https://youtu.be/8WtE-8MyAzI?si=r-it4okiwsxO6ZkM"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "Walking lunges",
+      "youtubeUrl": "https://youtu.be/tQNktxPkSeE?si=BUMPblD16t6xFIh1"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "Rope climbs",
+      "youtubeUrl": "https://youtu.be/nI4MijQJ_No?si=0W_kQW_vfYZkwo7X"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "GHD sit-ups",
+      "youtubeUrl": "https://youtu.be/drtWxWK8QOM?si=te-cRyjrp8eYYODx"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "Plate pushes/pulls",
+      "youtubeUrl": "https://youtu.be/o9Q8I6V35p0?si=P6c4aFeP0eTpOflc"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "Barbell rollouts",
+      "youtubeUrl": "https://youtu.be/OmMPFbKGHJ8?si=sm0-HdzmO9hvMEDs"
+    },
+    {
+      "name": "CROSSFIT",
+      "muscle": "Sandbag carries",
+      "youtubeUrl": "https://youtu.be/DZtrqfa7Whg?si=q9goMfWiS0sRoDpn"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "Flexiones de pino",
+      "youtubeUrl": "https://youtu.be/CNfJvrQrpZY?si=0Z2HbSLpd2rankjB"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "Fondos en anillas",
+      "youtubeUrl": "https://www.youtube.com/shorts/PMDJMZKQqUE"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "flexiones diamante",
+      "youtubeUrl": "https://youtu.be/erjLOgCqoOc?si=0AZ2o_kdzOJKNod5"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "Flexiones en pica",
+      "youtubeUrl": "https://youtu.be/4IQAbNVgPG8?si=_ATb0o7_g5O8venD"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "dynamic Planche lean",
+      "youtubeUrl": "https://youtu.be/K2CHxTCpWAs?si=JxKzhVhWMNpswido"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "flexiones en anillas",
+      "youtubeUrl": "https://youtube.com/shorts/cOAd8ZZ2cYQ?si=zZizHPJ_Ao6s7KGo"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "dominadas a un brazo",
+      "youtubeUrl": "https://youtu.be/WSb81PHZ6mA?si=804USffZn-NDGKNl"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "dominadas L-sit",
+      "youtubeUrl": "https://youtu.be/iHGgnCeyosU?si=C1nUo06QIiz0dlaB"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "dominadas agarre cerrado",
+      "youtubeUrl": "https://youtu.be/fPKzJp0hs7Y?si=wg9cUe814pHY46xo"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "dominadas en anillas",
+      "youtubeUrl": "https://youtube.com/shorts/pPF6xPykqSY?si=pN5580jFytzaUnOq"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "fondos a un brazo",
+      "youtubeUrl": "https://youtube.com/shorts/x1IY6WIO2Cs?si=ksqhjEvlMEugEIld"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "fondos en barra recta",
+      "youtubeUrl": "https://youtu.be/fdrhUMQnDCk?si=tZES4topopKXLDw5"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "flexiones con puño",
+      "youtubeUrl": "https://youtu.be/owkC5RXmfnU?si=_pDUwklYL4unmZBX"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "flexiones con dedos",
+      "youtubeUrl": "https://youtu.be/N8juYnLSl6A?si=Uxte6Qa5XjODSfpy"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "flexiones esfinge",
+      "youtubeUrl": "https://youtu.be/KbO2cHWFwfU?si=xrFJ4h72RSWSIAq5"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "flexiones hindu",
+      "youtubeUrl": "https://youtu.be/wFMzqAcD7os?si=vMy9dOsq9Z3koFft"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "flexiones tornado",
+      "youtubeUrl": "https://youtu.be/nm0XTB9xlbY?si=5_x85Zs9UqnQomS9"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "tuck planche",
+      "youtubeUrl": "https://youtube.com/shorts/r_Zs0TXaSVw?si=0CVbHsaQb_q3Jrww"
+    },
+    {
+      "name": "CALISTENIA",
+      "muscle": "flexiones arqueras",
+      "youtubeUrl": "https://youtu.be/bouCFhjGytc?si=BzR-H0EgUi2mcbHF"
+    },
+    {
+      "name": "GIMNASIA",
+      "muscle": "flexiones en anillas",
+      "youtubeUrl": "https://youtube.com/shorts/cOAd8ZZ2cYQ?si=zZizHPJ_Ao6s7KGo"
+    },
+    {
+      "name": "GIMNASIA",
+      "muscle": "muscle up en anillas",
+      "youtubeUrl": "https://youtu.be/dxEKinpKLzY?si=tmAZ8nkAp30l23y-"
+    },
+    {
+      "name": "GIMNASIA",
+      "muscle": "Fondos en anillas",
+      "youtubeUrl": "https://www.youtube.com/shorts/PMDJMZKQqUE"
+    },
+    {
+      "name": "GIMNASIA",
+      "muscle": "dominadas en anillas",
+      "youtubeUrl": "https://youtube.com/shorts/pPF6xPykqSY?si=pN5580jFytzaUnOq"
+    },
+    {
+      "name": "DOMINANTE DE RODILLA",
+      "muscle": "sentadilla barra alta",
+      "youtubeUrl": "https://youtu.be/KLyarAU2iHE?si=k1PxUcGWXLNj6oaW"
+    },
+    {
+      "name": "DOMINANTE DE RODILLA",
+      "muscle": "sentadilla barra baja",
+      "youtubeUrl": "https://youtu.be/8dxJApR56vo?si=raJb_JH_Pqg3AKUz"
+    },
+    {
+      "name": "DOMINANTE DE RODILLA",
+      "muscle": "sentadilla bulgara",
+      "youtubeUrl": "https://youtu.be/g343Q5OvoN8?si=yvLHrUuFNwlrbW_a"
+    },
+    {
+      "name": "DOMINANTE DE RODILLA",
+      "muscle": "zancada",
+      "youtubeUrl": "https://youtu.be/WmcxNJEN3GI?si=dUSbiCLHNxVHIKqo"
+    },
+    {
+      "name": "DOMINANTE DE RODILLA",
+      "muscle": "extension de cuadriceps",
+      "youtubeUrl": "https://youtu.be/_LoDgabiyqc?si=cbbtt0s7rmgDAdic"
+    },
+    {
+      "name": "DOMINANTE DE CADERA",
+      "muscle": "peso muerto rumano con barra",
+      "youtubeUrl": "https://youtu.be/t-Fjd5sa5-Y?si=pxpUFqO8ir_srP_3"
+    },
+    {
+      "name": "DOMINANTE DE CADERA",
+      "muscle": "peso muerto rumano con mancuernas",
+      "youtubeUrl": "https://youtu.be/6GeaiPbfVVM?si=rao98mlIp9XWe5Uo"
+    },
+    {
+      "name": "DOMINANTE DE CADERA",
+      "muscle": "peso muerto convencional",
+      "youtubeUrl": "https://youtu.be/9WZlPAxJ2u8?si=CsNHKLkilk_7HIBh"
+    },
+    {
+      "name": "DOMINANTE DE CADERA",
+      "muscle": "hip thrust",
+      "youtubeUrl": "https://youtu.be/3aTb9Megbuo?si=QU37G_VkmfVaCwGn"
+    },
+    {
+      "name": "DOMINANTE DE CADERA",
+      "muscle": "buenos dias",
+      "youtubeUrl": "https://youtu.be/uMSLd6viCao?si=UszTFvITh1JEHY46"
+    },
+    {
+      "name": "EMPUJE",
+      "muscle": "press banca inclinado con barra",
+      "youtubeUrl": "https://youtu.be/J3lODDykG0E?si=cWrLRi0yeXWmnYEY"
+    },
+    {
+      "name": "EMPUJE",
+      "muscle": "press banca inclinado con mancuernas",
+      "youtubeUrl": "https://youtu.be/MkMf308jXww?si=GJ6ig9-0H8nOFV5G"
+    },
+    {
+      "name": "EMPUJE",
+      "muscle": "press banca  inclinado en multipower",
+      "youtubeUrl": "https://youtu.be/iqozyy1KzvQ?si=9NUgfQBjQ26d4tkv"
+    },
+    {
+      "name": "EMPUJE",
+      "muscle": "flexiones declinadas",
+      "youtubeUrl": "https://youtu.be/WziTc4qa5a4?si=dRo9UGr7sGD2zoqv"
+    },
+    {
+      "name": "EMPUJE",
+      "muscle": "flexiones",
+      "youtubeUrl": "https://youtu.be/Yd79XBIdDnI?si=We-fHuyzqGEV189_"
+    },
+    {
+      "name": "TRACCION",
+      "muscle": "jalon al pecho",
+      "youtubeUrl": "https://youtu.be/B2vOdTyP6Pk?si=O1MkduxVl7pz8cH4"
+    },
+    {
+      "name": "TRACCION",
+      "muscle": "dominadas",
+      "youtubeUrl": "https://youtu.be/xgDezCv-0jA?si=LxmKyl3iPKDh9VZM"
+    },
+    {
+      "name": "TRACCION",
+      "muscle": "pull over en polea",
+      "youtubeUrl": "https://youtu.be/YKH6BjTCV3s?si=RFkjB7rZXSihsJnN"
+    },
+    {
+      "name": "TRACCION",
+      "muscle": "jalon unilateral en polea",
+      "youtubeUrl": "https://youtu.be/U1In2OvvzMI?si=DFPS-vDVoFeqqKHe"
+    },
+    {
+      "name": "TRACCION",
+      "muscle": "remo con mancuernas unilateral",
+      "youtubeUrl": "https://youtu.be/QLXTYcRmKcw?si=0AZlZObqU7HFhl6b"
+    },
+    {
+      "name": "COORDINACION",
+      "muscle": "Saltos de tijera",
+      "youtubeUrl": "https://youtu.be/LruM0sRpU1g"
+    },
+    {
+      "name": "COORDINACION",
+      "muscle": "Caminar en línea recta",
+      "youtubeUrl": "https://youtu.be/GvtdsVyiSLg"
+    },
+    {
+      "name": "COORDINACION",
+      "muscle": "Golpear un balón contra la pared",
+      "youtubeUrl": "https://youtu.be/HvMmDpgDmpg"
+    },
+    {
+      "name": "COORDINACION",
+      "muscle": "Equilibrio sobre una pierna",
+      "youtubeUrl": "https://youtu.be/Vz8dNtRGQjA"
+    },
+    {
+      "name": "COORDINACION",
+      "muscle": "Lanzar y atrapar una pelota",
+      "youtubeUrl": "https://youtu.be/NftVq_lA3Mo"
+    },
+    {
+      "name": "POSTURAL/CORRECTIVO",
+      "muscle": "Plancha frontal",
+      "youtubeUrl": "https://youtu.be/_3PGvG7BXJw?si=svOi6k_UUAAMlNTX"
+    },
+    {
+      "name": "POSTURAL/CORRECTIVO",
+      "muscle": "Extension lumbar",
+      "youtubeUrl": "https://youtu.be/4I3lLRNxUuM?si=rfFumLgzrLAIuhlw"
+    },
+    {
+      "name": "POSTURAL/CORRECTIVO",
+      "muscle": "retraccion escapular con banda",
+      "youtubeUrl": "https://youtu.be/S5w0ehGwmSE?si=342mN-Kl8YIXeQtb"
+    },
+    {
+      "name": "POSTURAL/CORRECTIVO",
+      "muscle": "puente de gluteo",
+      "youtubeUrl": "https://youtu.be/-yzU_B2-3_A?si=EDtNdEyyTSlMvM5j"
+    },
+    {
+      "name": "METABOLICO",
+      "muscle": "Burpees",
+      "youtubeUrl": "https://youtu.be/bFV0h9BXvbg"
+    },
+    {
+      "name": "METABOLICO",
+      "muscle": "Sentadillas con salto",
+      "youtubeUrl": "https://youtu.be/j29U_QDjfUs"
+    },
+    {
+      "name": "METABOLICO",
+      "muscle": "Plancha con movimiento",
+      "youtubeUrl": "https://youtu.be/kU2H40FeYSo"
+    },
+    {
+      "name": "METABOLICO",
+      "muscle": "Zancadas dinámicas",
+      "youtubeUrl": "https://youtu.be/j29U_QDjfUs"
+    },
+    {
+      "name": "METABOLICO",
+      "muscle": "Saltar la cuerda",
+      "youtubeUrl": "https://youtu.be/kU2H40FeYSo"
+    }
+  ],
+  "total": 277,
+  "errores": []
+}
+];
+
+// ====== Elementos del DOM ======
+const muscleFilter    = document.getElementById("muscleFilter");
+const searchInput     = document.getElementById("searchInput");
+const exerciseList    = document.getElementById("exerciseList");
+const playerSection   = document.getElementById("playerSection");
+const playerContainer = document.getElementById("playerContainer");
+const nowPlaying      = document.getElementById("nowPlaying");
+const watchOnYT       = document.getElementById("watchOnYT");
+
+// ====== Estado ======
+let selectedId = null;
+
+// ====== Utilidades ======
+function uniqueSortedMuscles(data) {
+  return [...new Set(data.map(ex => ex.muscle))].sort((a, b) => a.localeCompare(b, 'es'));
+}
+
+function sanitizeText(t) {
+  return (t || "").toString().trim().toLowerCase();
+}
+
+// Extrae el ID de YouTube desde ID o distintas formas de URL
+function getYouTubeId(ex) {
+  const raw = (ex.youtubeId || ex.youtubeUrl || "").trim();
+  if (!raw) return null;
+  // Si parece ID (sin http y con caracteres válidos), devolver tal cual
+  if (/^[a-zA-Z0-9_-]{8,}$/.test(raw) && !raw.includes("http")) return raw;
+  try {
+    const url = new URL(raw);
+    if (url.hostname.includes("youtu.be")) return url.pathname.replace("/", "");
+    if (url.searchParams.get("v")) return url.searchParams.get("v");
+    const path = url.pathname.split("/").filter(Boolean);
+    const embedIdx = path.indexOf("embed");
+    if (embedIdx !== -1 && path[embedIdx + 1]) return path[embedIdx + 1];
+    const shortsIdx = path.indexOf("shorts");
+    if (shortsIdx !== -1 && path[shortsIdx + 1]) return path[shortsIdx + 1];
+    return path[path.length - 1] || null;
+  } catch {
+    return raw;
+  }
+}
+
+function getThumbnailUrl(id) {
+  // hqdefault es liviana y confiable
+  return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+}
+
+function buildEmbedUrl(id, autoplay = false) {
+  const params = new URLSearchParams({
+    rel: "0",
+    modestbranding: "1",
+    playsinline: "1",
+    ...(autoplay ? { autoplay: "1" } : {}),
+  });
+  return `https://www.youtube.com/embed/${id}?${params.toString()}`;
+}
+
+function buildWatchUrl(id) {
+  return `https://www.youtube.com/watch?v=${id}`;
+}
+
+// ====== UI: llenar opciones del select ======
+function fillMuscleOptions() {
+  muscleFilter.innerHTML = `<option value="__ALL__">Todos los músculos</option>`;
+  uniqueSortedMuscles(allExercises).forEach(m => {
+    const o = document.createElement("option");
+    o.value = m;
+    o.textContent = m;
+    muscleFilter.appendChild(o);
+  });
+}
+
+// ====== Reproductor ======
+function renderPlayerPlaceholder(exercise) {
+  const id = getYouTubeId(exercise);
+  if (!id) {
+    playerContainer.innerHTML = `<div class="empty-state">Este ejercicio no tiene un video válido configurado.</div>`;
+    nowPlaying.textContent = "";
+    watchOnYT.href = "#";
+    watchOnYT.style.visibility = "hidden";
+    return;
+  }
+
+  const thumb = getThumbnailUrl(id);
+
+  playerContainer.innerHTML = `
+    <div class="player-placeholder" role="button" tabindex="0" aria-label="Reproducir ${exercise.name}">
+      <button class="play-btn" aria-hidden="true">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M8 5v14l11-7z"></path>
+        </svg>
+      </button>
+    </div>
+  `;
+
+  const placeholder = playerContainer.querySelector(".player-placeholder");
+  placeholder.style.backgroundImage = `url('${thumb}')`;
+
+  const triggerPlay = () => {
+    loadVideo(exercise, true);
+  };
+
+  placeholder.addEventListener("click", triggerPlay);
+  placeholder.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      triggerPlay();
+    }
+  });
+
+  nowPlaying.textContent = `${exercise.name} — ${exercise.muscle}`;
+  watchOnYT.href = buildWatchUrl(id);
+  watchOnYT.style.visibility = "visible";
+}
+
+function loadVideo(exercise, autoplay = false) {
+  const id = getYouTubeId(exercise);
+  if (!id) return;
+
+  const src = buildEmbedUrl(id, autoplay);
+  playerContainer.innerHTML = `
+    <iframe
+      src="${src}"
+      title="${exercise.name} — ${exercise.muscle}"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  `;
+}
+
+// ====== Render de ejercicios ======
+function renderExercises(trigger = "init") {
+  const filterValue = muscleFilter.value;
+  const q = sanitizeText(searchInput.value);
+
+  const filtered = allExercises.filter(ex => {
+    const byMuscle = filterValue === "__ALL__" || ex.muscle === filterValue;
+    const byText = sanitizeText(ex.name).includes(q) || sanitizeText(ex.muscle).includes(q);
+    const hasId = !!getYouTubeId(ex);
+    return byMuscle && byText && hasId;
+  });
+
+  exerciseList.innerHTML = "";
+
+  if (filtered.length === 0) {
+    selectedId = null;
+    playerContainer.innerHTML = "";
+    nowPlaying.textContent = "";
+    watchOnYT.href = "#";
+    watchOnYT.style.visibility = "hidden";
+    const empty = document.createElement("div");
+    empty.className = "empty-state";
+    empty.textContent = "No se encontraron ejercicios para ese filtro.";
+    exerciseList.appendChild(empty);
+    return;
+  }
+
+  // Mantener selección si sigue estando; si no, elegir el primero
+  const stillSelected = filtered.find(ex => getYouTubeId(ex) === selectedId);
+  const current = stillSelected || filtered[0];
+  selectedId = getYouTubeId(current);
+
+  // Pintar cards
+  filtered.forEach(ex => {
+    const id = getYouTubeId(ex);
+    const card = document.createElement("div");
+    card.className = `exercise-card${id === selectedId ? " active" : ""}`;
+    card.dataset.id = id;
+    card.innerHTML = `
+      <h3>${ex.name}</h3>
+      <p>${ex.muscle}</p>
+    `;
+
+    const selectExercise = () => {
+      if (selectedId !== id) selectedId = id;
+      renderPlayerPlaceholder(ex); // no autoplay al cambiar por filtro o click
+      highlightSelection();
+      playerSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+
+    card.addEventListener("click", selectExercise);
+    card.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        selectExercise();
+      }
+    });
+    card.tabIndex = 0; // accesible con teclado
+
+    exerciseList.appendChild(card);
+  });
+
+  // Mostrar placeholder del ejercicio actual (sin cargar iframe)
+  renderPlayerPlaceholder(current);
+  highlightSelection();
+}
+
+function highlightSelection() {
+  exerciseList.querySelectorAll(".exercise-card").forEach(card => {
+    card.classList.toggle("active", card.dataset.id === selectedId);
+  });
+}
+
+// ====== Eventos ======
+muscleFilter.addEventListener("change", () => renderExercises("filter"));
+searchInput.addEventListener("input", () => renderExercises("search"));
+
+// ====== Inicio ======
+fillMuscleOptions();
+renderExercises();
+
+/*
+  ====== Integración con JSON externo (opcional) ======
+  Estructura recomendada por ejercicio:
+  { "name": "...", "muscle": "...", "youtubeId": "op9kVnSso6Q" }
+  También acepta:
+  { "youtubeUrl": "https://youtu.be/op9kVnSso6Q" } / watch?v= / embed / shorts
+
+  Ejemplo:
+  fetch("data/ejercicios.json")
+    .then(r => r.json())
+    .then(data => {
+      allExercises.length = 0;
+      allExercises.push(...data);
+      fillMuscleOptions();
+      renderExercises();
+    });
+*/

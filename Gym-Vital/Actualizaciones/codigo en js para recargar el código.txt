@@ -1,0 +1,12 @@
+Regenerar el código si expiró colocar estas líneas en js
+
+if (remaining <= 0) {
+  localStorage.removeItem(PROMO_KEY_CODE);
+  localStorage.removeItem(PROMO_KEY_START);
+  location.reload(); // reinicia y genera nuevo código
+  return;
+}
+
+solo para test en el html
+<button onclick="localStorage.clear(); location.reload();">Reiniciar promo</button>
+
